@@ -1,0 +1,37 @@
+.table_heading {
+  color: #ccc5c5;
+  font-weight: bold;
+  font-size: larger;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table_body {
+  background-color: #e6e7e9;
+}
+.table_row {
+  border-spacing: 0;
+  border-radius: 6px;
+}
+.table_icon {
+  fill: red !important;
+}
+.table_email,
+.table_phone {
+  border-left: 1px solid #d4d6da;
+}
+.button_reject {
+  background-image: linear-gradient(120deg, #fbb03b, #f7931e);
+  border: none;
+  outline: none;
+  border-radius: 36px;
+  width: 90px;
+}
+.button_accept {
+  background-image: linear-gradient(-60deg, #ff3d3d, #cc2020);
+  border: none;
+  outline: none;
+  border-radius: 36px;
+  width: 90px;
+}

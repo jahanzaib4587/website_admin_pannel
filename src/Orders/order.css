@@ -1,0 +1,26 @@
+.table_heading {
+  color: #ccc5c5;
+  font-weight: bold;
+  font-size: larger;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table_body {
+  background-color: #e6e7e9;
+}
+.table_row {
+  border-spacing: 0;
+  border-radius: 6px;
+}
+.table_icon {
+  fill: green !important;
+}
+.table_icon_time {
+  fill: yellow !important;
+}
+.table_deliveryperson,
+.table_products {
+  border-left: 1px solid #d4d6da;
+}

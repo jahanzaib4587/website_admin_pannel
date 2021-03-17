@@ -1,0 +1,19 @@
+.sidebar {
+  padding: 48px 0 0;
+  background-image: linear-gradient(-60deg, #ff3d3d, #cc2020);
+  /* position: relative;
+  z-index: 100; */
+  height: 100vh;
+  margin-left: -15px;
+}
+
+.links:hover {
+  background-color: rgba(161, 158, 158, 0.4);
+}
+.menu {
+  color: #fff !important;
+}
+.links {
+  color: #fff !important;
+  margin: 10px;
+}

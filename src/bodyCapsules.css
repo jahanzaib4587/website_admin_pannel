@@ -1,0 +1,22 @@
+.button1 {
+  width: 300px;
+
+  background-color: #f5c228;
+  border: none !important;
+  padding: 10px;
+  text-decoration: none;
+  outline: none !important;
+}
+.button1:focus {
+  outline: none !important;
+}
+.button:hover {
+  text-decoration: none !important;
+}
+.icon {
+  font-size: 70px;
+}
+.number {
+  margin-top: -15px;
+  font-weight: bold;
+}
