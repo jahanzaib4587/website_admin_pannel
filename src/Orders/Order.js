@@ -34,7 +34,9 @@ function Orders(props) {
             <th className="table_heading">Client</th>
             <th className="table_heading">No.of Products</th>
             <th className="table_heading">Delivery Person</th>
-            <th className="table_heading">Status</th>
+            <th className="table_heading d-flex justify-content-end mr-3">
+              Status
+            </th>
           </tr>
         </thead>
         <tbody className="table_body ">
@@ -45,7 +47,7 @@ function Orders(props) {
             <td className="table_products  p-2">4</td>
             <td className="table_deliveryperson p-2">Umar Kharal</td>
             <td className="d-flex justify-content-end p-2">
-              <ShoppingBasketIcon className="text-success" />
+              <ShoppingBasketIcon className="text-success mr-3" />
             </td>
           </tr>
           <tr className="table_row">
@@ -55,7 +57,7 @@ function Orders(props) {
             <td className="table_products  p-2">2</td>
             <td className="table_deliveryperson p-2">Shahzaib</td>
             <td className="d-flex justify-content-end p-2">
-              <AccessAlarmTwoToneIcon className="text-warning " />
+              <AccessAlarmTwoToneIcon className="text-warning mr-3" />
             </td>
           </tr>
           <tr className="table_row">
@@ -63,7 +65,7 @@ function Orders(props) {
             <td className="table_products  p-2">4</td>
             <td className="table_deliveryperson p-2">Mohsin</td>
             <td className="d-flex justify-content-end p-2">
-              <ShoppingBasketIcon className="text-success" />
+              <ShoppingBasketIcon className="text-success mr-3" />
             </td>
           </tr>
           <tr className="table_row">
@@ -71,7 +73,7 @@ function Orders(props) {
             <td className="table_products  p-2">7</td>
             <td className="table_deliveryperson p-2">Ali</td>
             <td className="d-flex justify-content-end p-2">
-              <AutorenewTwoToneIcon className="text-info" />
+              <AutorenewTwoToneIcon className="text-info mr-3" />
             </td>
           </tr>
           <tr className="table_row">
@@ -79,7 +81,7 @@ function Orders(props) {
             <td className="table_products  p-2">8</td>
             <td className="table_deliveryperson p-2">Saboor</td>
             <td className="d-flex justify-content-end p-2">
-              <DoneAllTwoToneIcon className="text-danger " />
+              <DoneAllTwoToneIcon className="text-danger mr-3" />
             </td>
           </tr>
         </tbody>

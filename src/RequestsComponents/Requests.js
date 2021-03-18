@@ -13,7 +13,9 @@ function Requests(props) {
             <th className="table_heading">{props.title}</th>
             <th className="table_heading">Ph#</th>
             <th className="table_heading">Email</th>
-            <th className="table_heading">Status</th>
+            <th className="table_heading d-flex justify-content-end mr-3">
+              Status
+            </th>
           </tr>
         </thead>
         <tbody className="table_body ">
@@ -24,7 +26,7 @@ function Requests(props) {
             <td className="table_phone p-2">+923487414542</td>
             <td className="table_email p-2">jahanzaib4587@gmail.com</td>
             <td className="d-flex justify-content-end p-2">
-              <Button className="btn button_accept m-1">Accept</Button>
+              <Button className="btn button_submit m-1">Accept</Button>
               <Button className="btn button_reject m-1">Reject</Button>
             </td>
           </tr>
@@ -36,7 +38,7 @@ function Requests(props) {
             <td className="table_email p-2">Shahzaib4587289@gmail.com</td>
             <td className="d-flex justify-content-end p-2">
               <div>
-                <Button className="btn button_accept m-1">Accept</Button>
+                <Button className="btn button_submit m-1">Accept</Button>
                 <Button className="btn button_reject m-1">Reject</Button>
               </div>
             </td>
@@ -46,7 +48,7 @@ function Requests(props) {
             <td className="table_phone p-2">+923447714755</td>
             <td className="table_email p-2">fatima289@gmail.com</td>
             <td className="d-flex justify-content-end p-2">
-              <Button className="btn button_accept m-1">Accept</Button>
+              <Button className="btn button_submit m-1">Accept</Button>
               <Button className="btn button_reject  m-1">Reject</Button>
             </td>
           </tr>

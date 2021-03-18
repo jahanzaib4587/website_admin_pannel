@@ -8,6 +8,8 @@ import Dashboard from "./Dashboard";
 import { Container, Row, Col } from "react-bootstrap";
 import Client from "./Client/Client";
 import Orders from "./Orders/Order";
+import Categories from "./Categories/Catergories";
+import Product from "./Product/Product";
 import {
   BrowserRouter as Router,
   Route,
@@ -110,7 +112,8 @@ function App() {
                   <Sidebar />
                 </Col>
                 <Col md={10} id="page-content-wrapper">
-                  <h1>Still working</h1>
+                  <NavbarHeader title="Categories" />
+                  <Categories title="Categories" />
                 </Col>
               </Row>
             </Container>
@@ -123,7 +126,8 @@ function App() {
                   <Sidebar />
                 </Col>
                 <Col md={10} id="page-content-wrapper">
-                  <h1>Still working</h1>
+                  <NavbarHeader title="Products" />
+                  <Product />
                 </Col>
               </Row>
             </Container>

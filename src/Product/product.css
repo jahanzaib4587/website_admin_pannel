@@ -12,26 +12,26 @@
 }
 .table_row {
   border-spacing: 0;
-  border-radius: 6px;
+  border-radius: 1rem;
 }
 .table_icon {
   fill: red !important;
 }
 .table_email,
-.table_phone {
+.table_phone,
+.table_price {
   border-left: 1px solid #d4d6da;
 }
-.button_reject {
-  background-image: linear-gradient(120deg, #fbb03b, #f7931e);
-  border: none;
-  outline: none;
-  border-radius: 36px;
-  width: 90px;
-}
-.button_submit {
+.button_accept {
   background-image: linear-gradient(-60deg, #ff3d3d, #cc2020);
   border: none;
   outline: none;
-  border-radius: 36px;
-  width: 90px;
+  border-radius: 5px;
+  height: 50px;
+  font-weight: 500;
+  width: 150px;
+}
+.button_accept:hover {
+  box-shadow: 1px 8px 20px rgb(228, 225, 225);
+  -webkit-transition: box-shadow 0.4s ease-out;
 }
