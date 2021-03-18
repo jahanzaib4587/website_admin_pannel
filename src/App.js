@@ -1,5 +1,5 @@
 import "./App.css";
-import "./Connector";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import ClientRequest from "./RequestsComponents/Requests";
 import Sidebar from "./Sidebar";

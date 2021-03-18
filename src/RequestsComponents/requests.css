@@ -35,3 +35,9 @@
   border-radius: 36px;
   width: 90px;
 }
+.button_reject:hover {
+  opacity: 0.8;
+}
+.button_submit:hover {
+  opacity: 0.8;
+}
