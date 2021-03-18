@@ -69,6 +69,14 @@ function Orders(props) {
             </td>
           </tr>
           <tr className="table_row">
+            <td className="text-danger font-weight-bold p-2">Arzoo khalil</td>
+            <td className="table_products  p-2">2</td>
+            <td className="table_deliveryperson p-2">Faizan</td>
+            <td className="d-flex justify-content-end p-2">
+              <ShoppingBasketIcon className="text-success mr-3" />
+            </td>
+          </tr>
+          <tr className="table_row">
             <td className="text-danger font-weight-bold p-2">Faraz</td>
             <td className="table_products  p-2">7</td>
             <td className="table_deliveryperson p-2">Ali</td>

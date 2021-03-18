@@ -28,6 +28,14 @@ function Client(props) {
             </td>
           </tr>
           <tr className="table_row">
+            <td className="text-danger font-weight-bold p-2">Arzoo khalil</td>
+            <td className="table_phone p-2">+9234472233</td>
+            <td className="table_email p-2">arzoo@gmail.com</td>
+            <td className="d-flex justify-content-end p-2">
+              <DoneAllIcon className="table_icon mr-3" />
+            </td>
+          </tr>
+          <tr className="table_row">
             <td className="text-danger font-weight-bold p-2">
               Muhammad Shahzaib
             </td>

@@ -43,6 +43,15 @@ function Requests(props) {
               </div>
             </td>
           </tr>
+          <tr className="table_row ">
+            <td className="text-danger font-weight-bold ">Arzoo Khalil</td>
+            <td className="table_phone p-2">+9234344565</td>
+            <td className="table_email p-2">arzoo7@gmail.com</td>
+            <td className="d-flex justify-content-end p-2">
+              <Button className="btn button_submit m-1">Accept</Button>
+              <Button className="btn button_reject m-1">Reject</Button>
+            </td>
+          </tr>
           <tr className="table_row">
             <td className="text-danger font-weight-bold p-2">Fatima Rukhsar</td>
             <td className="table_phone p-2">+923447714755</td>
