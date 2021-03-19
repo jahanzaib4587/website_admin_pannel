@@ -81,6 +81,13 @@ function Sidebar() {
               Product
             </Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link href="/editperson" className=" links" eventKey="link-2">
+              <HorizontalSplitIcon className="mr-2" />
+              Edit Person's Info
+            </Nav.Link>
+          </Nav.Item>
         </div>
       </Nav>
     </div>

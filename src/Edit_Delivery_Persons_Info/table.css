@@ -1,0 +1,36 @@
+.table_heading {
+  color: #b2b3b4;
+  font-weight: bold;
+  font-size: larger;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table_body {
+  background-color: #e6e7e9;
+  /* border-radius: 36px !important; */
+}
+.table_row {
+  border-spacing: 0;
+  /* border-radius: 1rem !important; */
+}
+.table_icon {
+  fill: red !important;
+}
+
+.table_regNo,
+.table_category {
+  border-left: 2px solid #b2b3b4;
+}
+.clearbtn {
+  background-image: linear-gradient(-60deg, #ff3d3d, #cc2020);
+  color: white;
+}
+.arrowUpbtn {
+  background-image: linear-gradient(120deg, #fbb03b, #f7931e);
+  color: white;
+}
+.table_name1 {
+  font-size: 20px;
+}

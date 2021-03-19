@@ -10,6 +10,7 @@ import Client from "./Client/Client";
 import Orders from "./Orders/Order";
 import Categories from "./Categories/Catergories";
 import Product from "./Product/Product";
+import Edit_Delivery_Persons_info from "./Edit_Delivery_Persons_Info/Edit_Delivery_Person";
 import {
   BrowserRouter as Router,
   Route,
@@ -128,6 +129,20 @@ function App() {
                 <Col md={10} id="page-content-wrapper">
                   <NavbarHeader title="Products" />
                   <Product />
+                </Col>
+              </Row>
+            </Container>
+          </Route>
+
+          <Route exact path="/editperson">
+            <Container fluid>
+              <Row>
+                <Col xs={2} id="sidebar-wrapper">
+                  <Sidebar />
+                </Col>
+                <Col md={10} id="page-content-wrapper">
+                  <NavbarHeader title="Edit Delivery Person's Info" />
+                  <Edit_Delivery_Persons_info />
                 </Col>
               </Row>
             </Container>
